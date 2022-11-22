@@ -1,0 +1,1 @@
+import 'D:/Restors/Restaurant/SASS/info.sass'

@@ -1,0 +1,151 @@
+$color1: #ffffff
+$color2: #FF7400
+$color3: #FFFFFF
+$color4: #b45b12
+$color5: #D67E35
+$color6: #000000
+
+body 
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+
+.container 
+	margin: 0px  166px
+
+.header 
+	background-image: url(/Restaurant/photo/bg.jpg)
+	height: 100vh
+	background-repeat: no-repeat
+	background-size: cover
+	height: 300px
+	&-line 
+		padding-top: 50px
+		display: flex
+		align-items: center
+		justify-content: space-around
+	
+	&-line 
+		justify-content: space-between
+	
+
+.nav-item 
+	color: $color1
+	text-decoration: none
+	font-weight: 700
+	font-size: 14px
+	margin-right: 25px
+	transition: color  0.2s linear
+	&:hover 
+		color: $color2
+	
+
+.cart 
+	position: relative
+	border-right: 1px solid $color3
+	padding-right: 10px
+	height: 50px
+	&-img 
+		position: absolute
+		top: 18px
+		right: 7px
+	
+
+.num 
+	color: $color1
+	text-decoration: none
+	font-weight: 700
+	transition: color 0.3s linear
+	&:hover 
+		color: $color2
+	
+
+.phone-text 
+	font-size: 14px
+	font-weight: 400
+	color: $color1
+
+.phone-holder 
+	display: flex
+	align-items: center
+
+.button 
+	background-color: $color2
+	color: $color1
+	text-decoration: none
+	padding: 14px 18px
+	transition: background-color 0.2s linear 
+	&:hover 
+		background-color: $color4
+	
+
+.menu-title 
+	color: $color1
+	text-align: center
+	margin-top: 50px
+	font-size: 50px
+	font-weight: 400
+	span 
+		color: $color5
+	
+
+.menu-img 
+	background-color: $color6
+	height: 500vh
+	background-size: cover
+
+.menu- 
+	width: 1200px
+	text-align: center
+	margin-bottom: 20px
+
+.footer 
+	background-color: $color6
+	text-align: center
+	padding: 20px 0px
+	color: $color1
+
+.burger-menu 
+	display: none
+
+.block 
+	display: block
+
+button 
+	border: none
+	outline: none
+	background-color: transparent
+
+.disp 
+	display: none
+
+.bg 
+	background-image: url(/Restaurant/photo/dg-info.jpg)
+	height: 150vh
+	background-repeat: no-repeat
+	background-size: cover
+
+media 
+	max-widht: 780px
+	display: block
+
+.menu-item 
+	width: auto
+
+.high 
+	display: none
+
+.container 
+	margin: auto 40px
+
+.number-item 
+	font-size: 23px
+
+media(max-widht: 1185px) 
+	display: block
+
+.nav, .card, .phone, .btn 
+	display: none
+
+.burger-image 
+	display: none
+

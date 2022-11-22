@@ -1,0 +1,539 @@
+$color1: white
+$color2: #FF7400
+$color3: #FFFFFF
+$color4: #b45b12
+$color5: #D67E35
+$color6: #656363
+$color7: #000000
+$color8: #D67E34
+$color9: #E5E5E5
+$color10: #70001A
+
+body 
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+
+.container 
+	margin: 0px  166px
+
+.header 
+	background-image: url(/Restaurant/photo/bg.jpg)
+	height: 100vh
+	background-repeat: no-repeat
+	background-size: cover
+	&-line 
+		padding-top: 50px
+		display: flex
+		align-items: center
+		justify-content: space-around
+	
+	&-down 
+		position: relative
+	
+	&-title 
+		font-family: 'Tinos', serif
+		color: $color5
+		font-size: 50px
+		font-weight: 400
+		text-align: center
+		position: absolute
+		left: 0
+		margin-top: 222px 
+		margin-bottom: 12px
+	
+	&-suptitle 
+		color: $color1
+		font-size: 18px
+		font-family: 'Tinos', serif
+		&:after 
+			position: absolute
+			content: ''
+			height: 2px
+			width: 61px
+			background-color: $color1
+			top: 127px
+			left: 57px
+		
+		&:before 
+			position: absolute
+			content: ''
+			height: 2px
+			width: 61px
+			background-color: $color1
+			top: 127px
+			left: 307px
+		
+		&::before, ::after 
+			content: none
+		
+	
+	&-button 
+		background-color: $color2
+		text-decoration: none
+		color: $color1
+		padding: 10px 20px
+		font-size: 14px
+		font-weight: 700
+		font-family: 'Open Sans', sans-serif
+		transition: background-color 0.2s
+		&:hover 
+			background-color: $color5
+		
+	
+	&-title 
+		position: static
+	
+	&-line 
+		justify-content: space-between
+	
+
+.nav-item 
+	color: $color1
+	text-decoration: none
+	font-weight: 700
+	font-size: 14px
+	margin-right: 25px
+	transition: color  0.2s linear
+	&:hover 
+		color: $color2
+	
+
+.cart 
+	position: relative
+	border-right: 1px solid $color3
+	padding-right: 10px
+	height: 50px
+	&-img 
+		position: absolute
+		top: 18px
+		right: 7px
+	
+
+.num 
+	color: $color1
+	text-decoration: none
+	font-weight: 700
+	transition: color 0.3s linear
+	&:hover 
+		color: $color2
+	
+
+.phone-text 
+	font-size: 14px
+	font-weight: 400
+	color: $color1
+
+.phone-holder 
+	display: flex
+	align-items: center
+
+.button 
+	background-color: $color2
+	color: $color1
+	text-decoration: none
+	padding: 14px 18px
+	transition: background-color 0.2s linear 
+	&:hover 
+		background-color: $color4
+	
+
+.cards-holder 
+	display: flex
+	justify-content: center
+
+.card 
+	box-shadow: 10px 10px 40px 20px $color10 
+	width: 349px
+	margin-right: 31px
+	background-color: $color1
+	margin-top: -80px
+	padding: 10px 10px
+	&-img 
+		display: flex
+		justify-content: center
+		padding-top: 31px
+	
+	&-title 
+		text-align: center
+		justify-content: center
+		margin-bottom: 20px
+		font-family: 'Tinos', serif
+		font-size: 26px
+		font-weight: 400
+		span 
+			color: $color5
+		
+	
+	&-desc 
+		text-align: center
+		justify-content: center
+		font-family: 'Tinos', serif
+		font-size: 26px
+		font-weight: 400
+		color: $color6
+	
+
+.history 
+	margin-top: 166px
+	padding-bottom: 200px
+	&-title 
+		font-family: 'Tinos', serif
+		font-size: 54px
+		font-weight: 400
+		width: 444px
+		text-align: center
+		margin-top: 21px
+		span 
+			color: $color5
+		
+	
+	&-desc 
+		color: $color6
+		font-size: 16px
+		width: 444px
+		text-align: center
+	
+	&-number 
+		display: flex
+		width: 444px
+		justify-content: center
+		margin-left: 30px
+		margin-top: 40px
+	
+	&-holder 
+		display: flex
+	
+	&-images 
+		position: relative
+	
+	&-images 
+		display: none
+	
+	&-desc, &-title, &-number 
+		width: auto
+	
+
+.number-item 
+	margin-right: 60px
+	text-align: center
+	font-size: 30px
+	color: $color5
+	span 
+		display: block
+		color: $color7
+	
+
+.images1 
+	position: absolute
+	z-index: 0
+	top: 54px 
+	left: 211px
+
+.images2 
+	position: absolute
+	z-index: 999
+	top: -92px 
+	left: 383px
+
+.images3 
+	position: absolute
+	z-index: 999
+	top: 241px 
+	left: 486px
+
+.black-block 
+	background-image: url(/Restaurant/photo/black-bg.jpg)
+	padding: 80px 0px
+
+.left-title 
+	color: $color5
+	font-family: 'Tinos', serif
+	font-size: 52px
+	font-weight: 400
+	margin-bottom: 20px
+
+.left-text 
+	font-weight: 700
+	font-size: 24px
+	color: $color1
+
+.right-btn 
+	background-color: $color2
+	color: $color1
+	text-decoration: none
+	padding: 14px 18px
+	transition: background-color 0.2s linear 
+	&:hover 
+		background-color: $color4
+	
+
+.block-holder 
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+.dishes-title 
+	font-family: 'Tinos', serif
+	font-size: 54px
+	font-weight: 400
+	text-align: center
+	padding-top: 132px
+	margin-bottom: 139px
+	span 
+		color: $color5
+	
+
+.burgers 
+	display: flex
+	justify-content: center
+
+.burger-item 
+	display: flex
+	align-items: center
+	margin-bottom: 29px
+
+.burger-image 
+	margin-right: 20px
+
+.burger-text 
+	font-family: 'Tinos', serif
+	font-size: 26px
+	font-weight: 400
+	margin-left: 20px
+
+.burger 
+	margin-left: 20px
+	&-menu 
+		display: none
+	
+	&-image 
+		display: none
+	
+
+.menu 
+	background-image: url('/Restaurant/photo/menu-bg.jpg')
+	background-repeat: no-repeat
+	background-size: cover
+	padding-bottom: 100px
+	&-title 
+		font-family: 'Tinos', serif
+		font-size: 54px
+		padding-top: 98px
+		color: $color1
+		text-align: center
+		padding-bottom: 138px
+	
+	&-item 
+		background-color: $color1
+		text-align: center
+		width: 33%
+		padding-top: 30px
+		padding-bottom: 30px
+		margin-right: 20px
+	
+	&-text 
+		font-family: 'Tinos', serif
+		font-size: 26px
+		padding-top: 16px
+		margin-bottom: 17px
+	
+	&-subtext 
+		font-size: 16px
+		margin-bottom: 20px
+	
+	&-btn 
+		background: $color8
+		text-decoration: none
+		padding: 14px 67px
+		color: $color1
+		font-size: 16px
+		font-weight: 700
+		box-shadow: 5px 5px 10px 0px $color10
+	
+	&-batton 
+		margin-top: 20px
+	
+	&-image 
+		position: relative
+	
+	&-img 
+		height: 300px
+		width: 300px
+	
+	&-items 
+		display: flex
+		justify-content: center
+	
+	&-item 
+		margin: 20px auto
+	
+	&-item 
+		width: auto
+	
+
+.price-image 
+	position: absolute
+	bottom: 0px
+	right: 32px
+
+.price-420 
+	position: absolute
+	bottom: 32px
+	right: 56px
+	color: $color1
+	font-size: 30px
+
+.coment 
+	background-color: $color9
+	padding-top: 104px
+	padding-bottom: 139px
+	&-text 
+		text-align: center
+		font-style: italic
+		margin-bottom: 20px
+		font-size: 20px
+	
+	&-img 
+		border-radius: 50px
+	
+	&-images 
+		text-align: center
+	
+	&-type 
+		font-weight: 600
+		font-size: 20px
+		text-align: center
+	
+	&-name 
+		padding-top: 20px
+		font-weight: 400
+		font-size: 20px
+		text-align: center
+		font-style: italic
+	
+
+.galery-title 
+	font-family: 'Tinos', serif
+	font-size: 54px
+	text-align: center
+	padding-top: 100px
+	margin-bottom: 60px
+	span 
+		color: $color8
+	
+
+.galery-content 
+	display: flex
+	justify-content: center
+
+.galery-left 
+	margin-right: 20px
+
+.galery-down, .galery-up 
+	display: flex
+	justify-content: space-between
+	margin-bottom: 20px
+
+.cook 
+	padding-bottom: 100px
+	&-title 
+		font-family: 'Tinos', serif
+		font-size: 54px
+		text-align: center
+		margin-bottom: 100px
+		margin-top: 100px
+		span 
+			color: $color8
+		
+	
+	&-content 
+		display: flex
+		justify-content: space-around
+		img 
+			display: block
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 30px
+		
+	
+	&-content 
+		display: block
+	
+
+.footer 
+	background-color: $color7
+	text-align: center
+	padding: 50px 0px
+	color: $color1
+
+.block 
+	display: block
+	&-holder 
+		display: block
+	
+
+button 
+	border: none
+	outline: none
+	background-color: transparent
+
+.disp 
+	display: none
+
+media 
+		max-widht: 1500px
+		display: block
+.img-gal, .galery-down, .galery-up 
+	display: block
+	margin-left: auto
+	margin-right: auto
+
+.img-gal 
+	margin-bottom: 20px
+
+.galery-left 
+	margin-right: 0px
+
+media 
+	max-widht: 1300px
+	display: block
+
+.left-title 
+	text-align: center
+
+.left-text 
+	text-align: center
+
+.right-btn 
+	text-align: center
+	margin-top: 30px
+
+media 
+	max-widht: 1185px
+	display: block
+
+.nav, .card, .phone, .btn 
+	display: none
+
+media 
+	max-widht: 100px
+	display: block
+
+.card 
+	width: 100%
+	margin-top: 30px
+	padding-bottom: 20px
+
+media 
+	max-widht: 780px
+	display: block
+
+.high 
+	display: none
+
+.container 
+	margin: auto 40px
+
+.number-item 
+	font-size: 23px
+
